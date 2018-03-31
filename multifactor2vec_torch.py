@@ -10,7 +10,7 @@ import getopt
 
 
 try:
-    opts, args = getopt.getopt(sys.argv[1:],'hi:o:e:n:v:w:c:t:lp:d:g:s:k:m:f:',)
+    opts, args = getopt.getopt(sys.argv[1:],'hi:o:f:e:d:m:b:l:v:t:s:',)
 except getopt.GetoptError:
     print('\nxxx.py -i <inputfile,inputType> -o <outputfile,outputType> -c <coursefile, courseType> -f <factorfile> -e <epoch num> -d <vector dimension> -m <whether use minibatch> -b <minibatch size> -l <learning rate> -v <whether need validation>  -t <validationfile, FileType> \nDefault parameter: epoch=10, vector dimension=300, learning_rate=1e-3, minibatch=4096 \n')
     sys.exit(2)
