@@ -9,7 +9,7 @@ OPTIONS
 INPUT AND OUTPUT:
 
   -i inputfile_name
-      sampled training data pairs(target word, context word) matrix
+  sampled training data pairs(target word, context word) matrix
       
   -o outputfile_name
       saved model
