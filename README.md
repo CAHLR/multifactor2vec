@@ -29,6 +29,7 @@ INPUT AND OUTPUT:
       record validation loss after each epoch
       
 PARAMETERS
+
   -e epoch
   
       number of training epochs, default 10
